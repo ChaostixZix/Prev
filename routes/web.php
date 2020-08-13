@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('cancel', function ()
+{
+    return view('errors.cancel');
+});
 
 //Installer Routes
 Route::get('/install', 'InstallController@install')->name('install');

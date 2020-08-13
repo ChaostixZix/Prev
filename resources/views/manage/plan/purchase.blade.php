@@ -34,6 +34,7 @@
             @endif
             @if(request()->get('gateway') == 'midtrans')
                     <h5>{{ __('Redirecting....') }}</h5>
+                {{\Illuminate\Support\Facades\Session::get('plan')}}
                 <script
                         src="https://code.jquery.com/jquery-3.3.1.min.js"
                         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -44,7 +45,7 @@
                 <script>
                     $(document).ready(function () {
                         $.ajax({
-                            url: "{{ env('API_URL')  }}/getsnap/{{$plan->price->{request()->get('payment_plan')}*13000 }}",
+                            url: "{{ env('API_URL')  }}/getsnap/{{$plan->price->{request()->get('payment_plan')}*13000 }}/{{$plan->slug}}",
                             success: function (res) {
                                 console.log(res)
                                 snap.pay(res, {

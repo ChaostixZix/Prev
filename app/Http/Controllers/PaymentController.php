@@ -203,7 +203,7 @@ class PaymentController extends Controller
                 break;
         }
 
-
+        \Illuminate\Support\Facades\Session::put('plan', $plan->slug);
         return view('manage.plan.purchase', ['plan' => $plan, 'savings' => $savings, 'gateway' => $gateways]);
     }
 
@@ -352,7 +352,8 @@ class PaymentController extends Controller
 
 
         if ($gateway == 'midtrans') {
-            $post = $this->addPlanToUser($user->id, $plan_id, $duration, 'midtrans');
+            $post = $this->addPlanToUser($user->id, Packages::where('slug', Session::get('plan'))->first()->id, $duration, 'midtrans');
+            Session::pull('plan');
             if ($post->status == 'success') {
                 $email = $this->sendPayment($user, $plan);
                 if (!empty($email->status) && $email->status == 'success') {
@@ -362,7 +363,6 @@ class PaymentController extends Controller
                 }
             }
         }
-
         if ($gateway == 'stripe') {
             $post = $this->addPlanToUser($user->id, $plan_id, $duration, 'stripe');
             if ($post->status == 'success') {
@@ -404,6 +404,7 @@ class PaymentController extends Controller
                 }
             }
         }
+        return false;
     }
 
     private function sendPayment($user, $plan)

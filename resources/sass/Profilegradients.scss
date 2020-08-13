@@ -1,0 +1,118 @@
+
+$gradient:
+('gra-1', #fff, #000, radial-gradient( circle 878px at 48.2% -24.3%,  rgba(253,157,218,0.95) 100.2%, rgba(187,187,187,1) 100.2% )),
+('gra-2', #fff, #000, linear-gradient( 155deg,  rgba(216,173,249,1) 121.3%, rgba(187,187,187,1) 121.3% )),
+('gra-3', #fff, #000, linear-gradient( 110.9deg,  rgba(44,221,239,1) 1.1%, rgba(14,191,210,1) 37.6%, rgba(8,127,140,1) 99.2% )),
+('gra-4', #fff, #000, linear-gradient( 109.6deg,  rgba(255,207,84,1) 11.2%, rgba(255,158,27,1) 91.1% )),
+('gra-5', #fff, #000, radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,236,231,1) 0%, rgba(255,143,108,1) 90.1% )),
+('gra-6', #fff, #000, linear-gradient( 109.6deg,  rgba(102,203,149,1) 11.2%, rgba(39,210,175,1) 98.7% )),
+('gra-7', #fff, #000, radial-gradient( circle 636.6px at 10% 20%,  rgba(243,94,125,1) 0%, rgba(213,200,111,1) 90% )),
+('gra-8', #000, #fff, radial-gradient( circle 1224px at 10.6% 8.8%,  rgba(255,255,255,1) 0%, rgba(153,202,251,1) 100.2% )),
+('gra-9', #fff, #000, radial-gradient( circle farthest-corner at 10% 20%,  rgba(111,111,219,1) 0%, rgba(182,109,246,1) 72.4% )),
+('gra-10', #fff, #000, radial-gradient( circle farthest-corner at 10% 20%,  rgba(163,175,243,1) 0%, rgba(220,182,232,1) 100.2% )),
+('gra-11', #fff, #000, linear-gradient( 268deg,  rgba(255,105,180,1) 4.1%, rgba(255,174,215,1) 74.3% )),
+('gra-12', #fff, #000, radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,214,171,1) 0%, rgba(255,182,182,1) 90% )),
+('gra-13', #fff, #000, linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% ));
+
+// Gradient - 1
+@each $id, $color, $inverse-color, $background in $gradient {
+	.#{$id}.gra-bg{
+		background: $background !important;
+		color: $color !important;
+  	}
+}
+body{
+	&.default{
+		.theme-btn{
+			background: #4353ff;
+			color: #fff;
+		}
+	}
+
+	@each $id, $color, $inverse-color, $background in $gradient {
+		&.#{$id}{
+			.profile-header .profile-header-left .profile-avatar {
+				background: $background;
+				border: 0;
+			}
+			.intro-header{
+				background: $background;
+			}
+			.navbar-light.kart .navbar-nav .nav-link.intro-menu-item, .navbar-toggler{
+				color: $inverse-color !important;
+			}
+			.navbar-light .navbar-nav .nav-link.intro-menu-item, .navbar-toggler{
+				color: $color !important;
+			}
+			.navbar-light .navbar-nav .nav-link.intro-btn{
+				color: $color;
+			}
+			.skillbar .skillbar-bar{
+				background: $background;
+			}
+			@media (min-width: 992px){
+				.navbar-light .navbar-nav .nav-link.intro-menu-item{
+					background: transparent !important;
+					color: $color !important;
+				}
+				.navbar-light .navbar-nav .nav-link.intro-btn{
+					background: $color !important;
+					color: $inverse-color !important;
+				}
+			}
+			@media (max-width: 992px){
+				.navbar-light .navbar-nav .nav-link.intro-menu-item, .navbar-light .navbar-nav .nav-link.intro-btn{
+					background: $color !important;
+					color: $inverse-color !important;
+				}
+				 .navbar-light .navbar-nav .nav-link.intro-menu-item{
+					background: transparent !important;
+					border: 1px solid $color;
+					color: $color !important;
+				}
+				 .navbar-light.kart.menu .navbar-nav{
+					 .nav-item{
+						background: transparent !important;
+						 .nav-link.intro-menu-item{
+						 	background: $background !important;
+							border: 0;
+							color: $color !important;
+						 }
+					}
+				 }
+				.navbar-light .navbar-nav{
+					background: $color;
+				}
+			}
+			.profile-block-card.active{
+				background: $background;
+				span, em{
+					color: $color;
+				}
+			}
+			.profile-header .profile-header-left .profile-header-name{
+				background: $background;
+				border-radius: 10px;
+				h3, p{
+					color: $color;
+				}
+			}
+			.theme-btn {
+				background: $background;
+				color: $color;
+			}
+			.theme-bg{
+				background: $background;
+			}
+			.bottom-bar .bottom-bar-inner li.active {
+				a{
+					background: $background;
+					color: $color;
+				}
+				em,i{
+					color: $color;
+				}
+			}
+		}
+	}
+}

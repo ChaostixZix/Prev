@@ -1,0 +1,1435 @@
+.gra-1.gra-bg {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%) !important;
+  color: #fff !important;
+}
+
+.gra-2.gra-bg {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%) !important;
+  color: #fff !important;
+}
+
+.gra-3.gra-bg {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%) !important;
+  color: #fff !important;
+}
+
+.gra-4.gra-bg {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%) !important;
+  color: #fff !important;
+}
+
+.gra-5.gra-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%) !important;
+  color: #fff !important;
+}
+
+.gra-6.gra-bg {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%) !important;
+  color: #fff !important;
+}
+
+.gra-7.gra-bg {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%) !important;
+  color: #fff !important;
+}
+
+.gra-8.gra-bg {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%) !important;
+  color: #000 !important;
+}
+
+.gra-9.gra-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%) !important;
+  color: #fff !important;
+}
+
+.gra-10.gra-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%) !important;
+  color: #fff !important;
+}
+
+.gra-11.gra-bg {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%) !important;
+  color: #fff !important;
+}
+
+.gra-12.gra-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%) !important;
+  color: #fff !important;
+}
+
+.gra-13.gra-bg {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%) !important;
+  color: #fff !important;
+}
+
+body.default .theme-btn {
+  background: #4353ff;
+  color: #fff;
+}
+
+body.gra-1 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+  border: 0;
+}
+
+body.gra-1 .intro-header {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+}
+
+body.gra-1 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-1 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-1 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-1 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-1 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-1 .skillbar .skillbar-bar {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+}
+
+@media (min-width: 992px) {
+  body.gra-1 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-1 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-1 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-1 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-1 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-1 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-1 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-1 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-1 .profile-block-card.active {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+}
+
+body.gra-1 .profile-block-card.active span,
+body.gra-1 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-1 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+  border-radius: 10px;
+}
+
+body.gra-1 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-1 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-1 .theme-btn {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+  color: #fff;
+}
+
+body.gra-1 .theme-bg {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+}
+
+body.gra-1 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle 878px at 48.2% -24.3%, rgba(253, 157, 218, 0.95) 100.2%, #bbbbbb 100.2%);
+  color: #fff;
+}
+
+body.gra-1 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-1 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-2 .profile-header .profile-header-left .profile-avatar {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+  border: 0;
+}
+
+body.gra-2 .intro-header {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+}
+
+body.gra-2 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-2 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-2 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-2 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-2 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-2 .skillbar .skillbar-bar {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+}
+
+@media (min-width: 992px) {
+  body.gra-2 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-2 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-2 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-2 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-2 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-2 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-2 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-2 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-2 .profile-block-card.active {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+}
+
+body.gra-2 .profile-block-card.active span,
+body.gra-2 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-2 .profile-header .profile-header-left .profile-header-name {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+  border-radius: 10px;
+}
+
+body.gra-2 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-2 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-2 .theme-btn {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+  color: #fff;
+}
+
+body.gra-2 .theme-bg {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+}
+
+body.gra-2 .bottom-bar .bottom-bar-inner li.active a {
+  background: linear-gradient(155deg, #d8adf9 121.3%, #bbbbbb 121.3%);
+  color: #fff;
+}
+
+body.gra-2 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-2 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-3 .profile-header .profile-header-left .profile-avatar {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+  border: 0;
+}
+
+body.gra-3 .intro-header {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+}
+
+body.gra-3 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-3 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-3 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-3 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-3 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-3 .skillbar .skillbar-bar {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+}
+
+@media (min-width: 992px) {
+  body.gra-3 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-3 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-3 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-3 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-3 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-3 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-3 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-3 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-3 .profile-block-card.active {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+}
+
+body.gra-3 .profile-block-card.active span,
+body.gra-3 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-3 .profile-header .profile-header-left .profile-header-name {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+  border-radius: 10px;
+}
+
+body.gra-3 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-3 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-3 .theme-btn {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+  color: #fff;
+}
+
+body.gra-3 .theme-bg {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+}
+
+body.gra-3 .bottom-bar .bottom-bar-inner li.active a {
+  background: linear-gradient(110.9deg, #2cddef 1.1%, #0ebfd2 37.6%, #087f8c 99.2%);
+  color: #fff;
+}
+
+body.gra-3 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-3 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-4 .profile-header .profile-header-left .profile-avatar {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+  border: 0;
+}
+
+body.gra-4 .intro-header {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+}
+
+body.gra-4 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-4 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-4 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-4 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-4 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-4 .skillbar .skillbar-bar {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+}
+
+@media (min-width: 992px) {
+  body.gra-4 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-4 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-4 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-4 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-4 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-4 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-4 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-4 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-4 .profile-block-card.active {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+}
+
+body.gra-4 .profile-block-card.active span,
+body.gra-4 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-4 .profile-header .profile-header-left .profile-header-name {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+  border-radius: 10px;
+}
+
+body.gra-4 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-4 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-4 .theme-btn {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+  color: #fff;
+}
+
+body.gra-4 .theme-bg {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+}
+
+body.gra-4 .bottom-bar .bottom-bar-inner li.active a {
+  background: linear-gradient(109.6deg, #ffcf54 11.2%, #ff9e1b 91.1%);
+  color: #fff;
+}
+
+body.gra-4 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-4 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-5 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+  border: 0;
+}
+
+body.gra-5 .intro-header {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+}
+
+body.gra-5 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-5 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-5 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-5 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-5 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-5 .skillbar .skillbar-bar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+}
+
+@media (min-width: 992px) {
+  body.gra-5 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-5 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-5 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-5 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-5 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-5 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-5 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-5 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-5 .profile-block-card.active {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+}
+
+body.gra-5 .profile-block-card.active span,
+body.gra-5 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-5 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+  border-radius: 10px;
+}
+
+body.gra-5 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-5 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-5 .theme-btn {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+  color: #fff;
+}
+
+body.gra-5 .theme-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+}
+
+body.gra-5 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffece7 0%, #ff8f6c 90.1%);
+  color: #fff;
+}
+
+body.gra-5 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-5 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-6 .profile-header .profile-header-left .profile-avatar {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+  border: 0;
+}
+
+body.gra-6 .intro-header {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+}
+
+body.gra-6 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-6 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-6 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-6 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-6 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-6 .skillbar .skillbar-bar {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+}
+
+@media (min-width: 992px) {
+  body.gra-6 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-6 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-6 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-6 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-6 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-6 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-6 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-6 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-6 .profile-block-card.active {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+}
+
+body.gra-6 .profile-block-card.active span,
+body.gra-6 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-6 .profile-header .profile-header-left .profile-header-name {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+  border-radius: 10px;
+}
+
+body.gra-6 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-6 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-6 .theme-btn {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+  color: #fff;
+}
+
+body.gra-6 .theme-bg {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+}
+
+body.gra-6 .bottom-bar .bottom-bar-inner li.active a {
+  background: linear-gradient(109.6deg, #66cb95 11.2%, #27d2af 98.7%);
+  color: #fff;
+}
+
+body.gra-6 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-6 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-7 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+  border: 0;
+}
+
+body.gra-7 .intro-header {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+}
+
+body.gra-7 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-7 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-7 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-7 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-7 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-7 .skillbar .skillbar-bar {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+}
+
+@media (min-width: 992px) {
+  body.gra-7 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-7 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-7 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-7 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-7 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-7 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-7 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-7 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-7 .profile-block-card.active {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+}
+
+body.gra-7 .profile-block-card.active span,
+body.gra-7 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-7 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+  border-radius: 10px;
+}
+
+body.gra-7 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-7 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-7 .theme-btn {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+  color: #fff;
+}
+
+body.gra-7 .theme-bg {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+}
+
+body.gra-7 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle 636.6px at 10% 20%, #f35e7d 0%, #d5c86f 90%);
+  color: #fff;
+}
+
+body.gra-7 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-7 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-8 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+  border: 0;
+}
+
+body.gra-8 .intro-header {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+}
+
+body.gra-8 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-8 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-8 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-8 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-8 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #000;
+}
+
+body.gra-8 .skillbar .skillbar-bar {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+}
+
+@media (min-width: 992px) {
+  body.gra-8 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #000 !important;
+  }
+
+  body.gra-8 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #000 !important;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-8 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-8 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #000 !important;
+    color: #fff !important;
+  }
+
+  body.gra-8 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #000;
+    color: #000 !important;
+  }
+
+  body.gra-8 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-8 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%) !important;
+    border: 0;
+    color: #000 !important;
+  }
+
+  body.gra-8 .navbar-light .navbar-nav {
+    background: #000;
+  }
+}
+
+body.gra-8 .profile-block-card.active {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+}
+
+body.gra-8 .profile-block-card.active span,
+body.gra-8 .profile-block-card.active em {
+  color: #000;
+}
+
+body.gra-8 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+  border-radius: 10px;
+}
+
+body.gra-8 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-8 .profile-header .profile-header-left .profile-header-name p {
+  color: #000;
+}
+
+body.gra-8 .theme-btn {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+  color: #000;
+}
+
+body.gra-8 .theme-bg {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+}
+
+body.gra-8 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle 1224px at 10.6% 8.8%, white 0%, #99cafb 100.2%);
+  color: #000;
+}
+
+body.gra-8 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-8 .bottom-bar .bottom-bar-inner li.active i {
+  color: #000;
+}
+
+body.gra-9 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+  border: 0;
+}
+
+body.gra-9 .intro-header {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+}
+
+body.gra-9 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-9 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-9 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-9 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-9 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-9 .skillbar .skillbar-bar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+}
+
+@media (min-width: 992px) {
+  body.gra-9 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-9 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-9 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-9 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-9 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-9 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-9 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-9 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-9 .profile-block-card.active {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+}
+
+body.gra-9 .profile-block-card.active span,
+body.gra-9 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-9 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+  border-radius: 10px;
+}
+
+body.gra-9 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-9 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-9 .theme-btn {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+  color: #fff;
+}
+
+body.gra-9 .theme-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+}
+
+body.gra-9 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #6f6fdb 0%, #b66df6 72.4%);
+  color: #fff;
+}
+
+body.gra-9 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-9 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-10 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+  border: 0;
+}
+
+body.gra-10 .intro-header {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+}
+
+body.gra-10 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-10 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-10 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-10 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-10 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-10 .skillbar .skillbar-bar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+}
+
+@media (min-width: 992px) {
+  body.gra-10 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-10 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-10 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-10 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-10 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-10 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-10 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-10 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-10 .profile-block-card.active {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+}
+
+body.gra-10 .profile-block-card.active span,
+body.gra-10 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-10 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+  border-radius: 10px;
+}
+
+body.gra-10 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-10 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-10 .theme-btn {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+  color: #fff;
+}
+
+body.gra-10 .theme-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+}
+
+body.gra-10 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #a3aff3 0%, #dcb6e8 100.2%);
+  color: #fff;
+}
+
+body.gra-10 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-10 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-11 .profile-header .profile-header-left .profile-avatar {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+  border: 0;
+}
+
+body.gra-11 .intro-header {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+}
+
+body.gra-11 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-11 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-11 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-11 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-11 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-11 .skillbar .skillbar-bar {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+}
+
+@media (min-width: 992px) {
+  body.gra-11 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-11 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-11 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-11 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-11 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-11 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-11 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-11 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-11 .profile-block-card.active {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+}
+
+body.gra-11 .profile-block-card.active span,
+body.gra-11 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-11 .profile-header .profile-header-left .profile-header-name {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+  border-radius: 10px;
+}
+
+body.gra-11 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-11 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-11 .theme-btn {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+  color: #fff;
+}
+
+body.gra-11 .theme-bg {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+}
+
+body.gra-11 .bottom-bar .bottom-bar-inner li.active a {
+  background: linear-gradient(268deg, hotpink 4.1%, #ffaed7 74.3%);
+  color: #fff;
+}
+
+body.gra-11 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-11 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-12 .profile-header .profile-header-left .profile-avatar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+  border: 0;
+}
+
+body.gra-12 .intro-header {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+}
+
+body.gra-12 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-12 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-12 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-12 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-12 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-12 .skillbar .skillbar-bar {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+}
+
+@media (min-width: 992px) {
+  body.gra-12 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-12 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-12 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-12 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-12 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-12 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-12 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-12 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-12 .profile-block-card.active {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+}
+
+body.gra-12 .profile-block-card.active span,
+body.gra-12 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-12 .profile-header .profile-header-left .profile-header-name {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+  border-radius: 10px;
+}
+
+body.gra-12 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-12 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-12 .theme-btn {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+  color: #fff;
+}
+
+body.gra-12 .theme-bg {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+}
+
+body.gra-12 .bottom-bar .bottom-bar-inner li.active a {
+  background: radial-gradient(circle farthest-corner at 10% 20%, #ffd6ab 0%, #ffb6b6 90%);
+  color: #fff;
+}
+
+body.gra-12 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-12 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+
+body.gra-13 .profile-header .profile-header-left .profile-avatar {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+  border: 0;
+}
+
+body.gra-13 .intro-header {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+}
+
+body.gra-13 .navbar-light.kart .navbar-nav .nav-link.intro-menu-item,
+body.gra-13 .navbar-toggler {
+  color: #000 !important;
+}
+
+body.gra-13 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+body.gra-13 .navbar-toggler {
+  color: #fff !important;
+}
+
+body.gra-13 .navbar-light .navbar-nav .nav-link.intro-btn {
+  color: #fff;
+}
+
+body.gra-13 .skillbar .skillbar-bar {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+}
+
+@media (min-width: 992px) {
+  body.gra-13 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    color: #fff !important;
+  }
+
+  body.gra-13 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  body.gra-13 .navbar-light .navbar-nav .nav-link.intro-menu-item,
+  body.gra-13 .navbar-light .navbar-nav .nav-link.intro-btn {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body.gra-13 .navbar-light .navbar-nav .nav-link.intro-menu-item {
+    background: transparent !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+  }
+
+  body.gra-13 .navbar-light.kart.menu .navbar-nav .nav-item {
+    background: transparent !important;
+  }
+
+  body.gra-13 .navbar-light.kart.menu .navbar-nav .nav-item .nav-link.intro-menu-item {
+    background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%) !important;
+    border: 0;
+    color: #fff !important;
+  }
+
+  body.gra-13 .navbar-light .navbar-nav {
+    background: #fff;
+  }
+}
+
+body.gra-13 .profile-block-card.active {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+}
+
+body.gra-13 .profile-block-card.active span,
+body.gra-13 .profile-block-card.active em {
+  color: #fff;
+}
+
+body.gra-13 .profile-header .profile-header-left .profile-header-name {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+  border-radius: 10px;
+}
+
+body.gra-13 .profile-header .profile-header-left .profile-header-name h3,
+body.gra-13 .profile-header .profile-header-left .profile-header-name p {
+  color: #fff;
+}
+
+body.gra-13 .theme-btn {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+  color: #fff;
+}
+
+body.gra-13 .theme-bg {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+}
+
+body.gra-13 .bottom-bar .bottom-bar-inner li.active a {
+  background: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%);
+  color: #fff;
+}
+
+body.gra-13 .bottom-bar .bottom-bar-inner li.active em,
+body.gra-13 .bottom-bar .bottom-bar-inner li.active i {
+  color: #fff;
+}
+

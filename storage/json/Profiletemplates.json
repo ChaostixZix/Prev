@@ -1,0 +1,16 @@
+{
+  "dove": {
+    "name"    : "Dove Ui",
+    "default" : "no",
+    "comments": "Please use only one template as default",
+    "version" : "1.0.1",
+    "banner"  : "dove-ui.png"
+  },
+  "dove-kart": {
+    "name"    : "Dove Kart",
+    "default" : "yes",
+    "comments": "Please use only one template as default",
+    "version" : "1.0.0",
+    "banner"  : "dove-kart-ui.png"
+  }
+}

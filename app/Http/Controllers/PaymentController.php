@@ -202,8 +202,9 @@ class PaymentController extends Controller
                 return redirect(json_decode($result->getBody()->getContents())->data->authorization_url);
                 break;
         }
-
-        \Illuminate\Support\Facades\Session::put('plan', $plan->slug);
+        setcookie('plan', $plan->slug, time() + (86400 * 30), "/");
+        setcookie('duration', request()->get('payment_plan'), time() + (86400 * 30), "/");
+//        \Illuminate\Support\Facades\Session::put('plan', $plan->slug);
         return view('manage.plan.purchase', ['plan' => $plan, 'savings' => $savings, 'gateway' => $gateways]);
     }
 
@@ -283,8 +284,10 @@ class PaymentController extends Controller
     public function callback(Request $request, $plan, $gateway)
     {
         $user = Auth::user();
-        $plan = Packages::where('slug', $plan)->first();
-        $plan_id = $plan->id;
+        if ($gateway !== 'midtrans') {
+            $plan = Packages::where('slug', $plan)->first();
+            $plan_id = $plan->id;
+        }
         $price = $request->session()->get('price');
         $duration = $request->get('duration');
 
@@ -352,11 +355,12 @@ class PaymentController extends Controller
 
 
         if ($gateway == 'midtrans') {
-            $post = $this->addPlanToUser($user->id, Packages::where('slug', Session::get('plan'))->first()->id, $duration, 'midtrans');
-            Session::pull('plan');
+            $plan = Packages::where('slug', $_COOKIE['plan'])->first();
+            var_dump($_COOKIE['duration']);
+            $post = $this->addPlanToUser($user->id, $plan->id, $_COOKIE['duration'], 'midtrans');
             if ($post->status == 'success') {
                 $email = $this->sendPayment($user, $plan);
-                if (!empty($email->status) && $email->status == 'success') {
+                if (!empty($email->status) && $email->status == 'suDashLiteccess') {
                     return redirect()->route('pricing')->with('success', 'Package activated');
                 } else {
                     return redirect()->route('pricing')->with('success', 'payment successful with little errors');

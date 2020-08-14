@@ -34,7 +34,6 @@
             @endif
             @if(request()->get('gateway') == 'midtrans')
                     <h5>{{ __('Redirecting....') }}</h5>
-                {{\Illuminate\Support\Facades\Session::get('plan')}}
                 <script
                         src="https://code.jquery.com/jquery-3.3.1.min.js"
                         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
